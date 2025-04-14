@@ -1,8 +1,7 @@
 def leap_year():
-    # Defino la variable "año", para luego aplicarla al "if":
-    a = int(input("Año: "))
 
+    a = int(input("Ingrese un año: "))
     if (a % 4 == 0 and a % 100 != 0) or (a % 400 == 0):
-        print(f"El {a} es BISIESTO")
+        print(f"El año {a} es bisiesto")
     else:
-        print(f"El {a} NO es BISIESTO")
+        print(f"El año {a} no es bisiesto")
